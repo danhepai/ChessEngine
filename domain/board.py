@@ -56,4 +56,3 @@ class Board:
         self.black_R_bb |= set_bit(self.black_R_bb, 63)
         for i in range(48, 56):
             self.black_P_bb |= set_bit(self.black_P_bb, i)
-
